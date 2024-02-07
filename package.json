@@ -1,7 +1,7 @@
 {
   "author": "Zero65 Technologies Pvt. Ltd.",
   "name": "@zero65tech/message",
-  "version": "4.0.0",
+  "version": "4.0.1",
   "description": "Google Cloud PubSub Toolkit",
   "license": "MIT",
   "repository": {
@@ -20,7 +20,9 @@
     "test": "jest --coverage --testPathPattern=test/",
     "lint": "npx eslint --fix src build test"
   },
-  "dependencies": {},
+  "dependencies": {
+    "@google-cloud/pubsub": "4.3.x"
+  },
   "devDependencies": {
     "eslint": "8.54.x",
     "jest": "29.7.x"
