@@ -12,7 +12,7 @@ exports.init = ({ projectId, topic }) => {
       "Content-Type": "application/json",
       'x-zero65-sender': process.env.npm_package_name,
       'x-zero65-receiver': service,
-      'x-zero65-receiver-url': api
+      'x-zero65-receiver-api': api
     });
   }
 
